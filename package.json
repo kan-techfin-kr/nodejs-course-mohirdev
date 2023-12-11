@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-course-mohirdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file .env 2-vazifa.js",
+    "dev": "node --watch --env-file .env 2-vazifa.js "
+  },
+  "author": "Zokirkhon",
+  "license": "ISC"
+}
