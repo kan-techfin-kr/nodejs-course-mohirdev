@@ -7,11 +7,16 @@
   {
     "id": 2,
     "title": "Sariq devni minib",
-    "autor": "Xudoyberdi To'xtaboyev"
+    "author": "Xudoyberdi To'xtaboyev"
   },
   {
     "id": 3,
-    "title": "test1",
+    "title": "test1 title",
     "author": "test1 author"
+  },
+  {
+    "id": 4,
+    "title": "test2",
+    "author": "test2 author"
   }
 ]
