@@ -243,9 +243,9 @@ const server = http.createServer(async function (req, res) {
             return res.end("<p>id bo'yicha ma'lumot topilmadi</p>");
           }
 
-          jsonData.filter((book) => book.id !== bookId);
+          filteredData = jsonData.filter((book) => book.id !== bookId);
 
-          fs.writeFileSync(filePath, JSON.stringify(jsonData, null, 2), "utf-8");
+          fs.writeFileSync(filePath, JSON.stringify(filteredData, null, 2), "utf-8");
           res.end("<p>ma'lumot muvaffaqiyatli o'chirildi.</p>");
 
           return;
