@@ -1,7 +1,17 @@
 [
   {
     "id": 1,
-    "title": "test1 title",
-    "author": "test1 author"
+    "title": "test1 title updated",
+    "author": "test1 author updated"
+  },
+  {
+    "id": 2,
+    "title": "test2 title",
+    "author": "test2 author"
+  },
+  {
+    "id": 3,
+    "title": "test3 title",
+    "author": "test3 author"
   }
 ]

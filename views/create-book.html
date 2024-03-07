@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Book</title>
+  </head>
+  <body>
+    <h1>Creating new book</h1>
+    <form action="/books" method="POST">
+      <div>
+        <label for="">title:</label>
+        <br />
+        <input type="text" name="title" placeholder="title of the book" required />
+      </div>
+      <div>
+        <label for="">author:</label>
+        <br />
+        <input type="text" name="author" placeholder="author of the book" required />
+      </div>
+      <br />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
